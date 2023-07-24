@@ -92,3 +92,5 @@ target/
 /config/project_root
 .ruff_cache
 /keys
+
+.env.production

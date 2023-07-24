@@ -1,0 +1,4 @@
+[core]
+    remote = legal-charts-data
+['remote "legal-charts-data"']
+    url = gs://legal-charts-data
