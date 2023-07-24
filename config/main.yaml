@@ -1,0 +1,13 @@
+hydra:
+  output_subdir: null
+  run:
+    dir: .
+
+defaults:
+  - project_root: project_root
+  - _self_
+
+data:
+  processed: ${project_root.path}/data/processed
+
+utils: ${project_root.path}/src/utils

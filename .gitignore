@@ -94,3 +94,5 @@ target/
 /keys
 
 .env.production
+
+/notebooks/other

@@ -1,0 +1,17 @@
+name: legal-charts-data
+channels:
+  - apple
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - hydra-core
+  - ipykernel
+  - pandas
+  - seaborn
+  - python-dotenv
+  - ipykernel
+  - mysqlclient
+  - openpyxl
+  - google-cloud-storage
+  - mysqlclient
