@@ -14,4 +14,3 @@ dependencies:
   - mysqlclient
   - openpyxl
   - google-cloud-storage
-  - mysqlclient
