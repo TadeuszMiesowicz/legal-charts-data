@@ -1,2 +1,4 @@
+[core]
+    remote = legal-charts-s3
 ['remote "legal-charts-s3"']
     url = s3://legal-charts-data
