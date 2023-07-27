@@ -11,7 +11,7 @@ def upload_file(source_fileName: str, destination_blob_name: str) -> None:
         destination_blob_name (str): destination blob in storage
     """
 
-    client = storage.Client()
+    client = storage.Client(project='legal-charts')
     bucket_name = os.getenv("GCP_BUCKET")
     bucket = client.bucket("legal-charts-datasets")
     blob = bucket.blob(destination_blob_name)
